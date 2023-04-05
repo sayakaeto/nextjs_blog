@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.2.4",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "date-fns": "^2.29.3",
+    "html-react-parser": "^3.0.4",
+    "html-to-text": "^9.0.5",
+    "microcms-js-sdk": "^2.3.2",
+    "next": "12.2.0",
+    "plaiceholder": "^2.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
     "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4"
+    "eslint-config-next": "12.2.0"
   }
 }
